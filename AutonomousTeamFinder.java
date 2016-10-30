@@ -16,7 +16,7 @@ import java.util.Date;
  * when it touches a wall it MAY be inefficient as f. -G
  */
 
-@Autonomous(name="Template: Iterative OpMode", group="Iterative Opmode")  // @Autonomous(...) is the other common choice
+@Autonomous(name="Autonomous Team Finder", group="Iterative Opmode")  // @Autonomous(...) is the other common choice
 public class AutonomousTeamFinder extends OpMode
 {
     /* Declare OpMode members. */
