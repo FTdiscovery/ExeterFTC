@@ -1,5 +1,3 @@
-package org.firstinspires.ftc.robotcontroller.external.samples;
-
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.eventloop.opmode.Disabled;
@@ -54,12 +52,12 @@ public class FTCMovement extends LinearOpMode {
 
             //THIS HAS NOT BEEN TESTED FOR ITS DIRECTIONS. But this can be edited after test runs.
             if (turnPow != 0) {
-                leftMotor.setPower(-turnPow);
+                leftMotor.setPower(turnPow);
                 rightMotor.setPower(turnPow);
             }
             else {
                 leftMotor.setPower(vertPow);
-                rightMotor.setPower(vertPow);
+                rightMotor.setPower(-vertPow);
             }
 
         }
